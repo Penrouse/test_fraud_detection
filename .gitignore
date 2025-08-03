@@ -205,3 +205,38 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Adiconales
+
+# Variables de entorno (CRÍTICO)
+.env
+.env.local
+.env.*.local
+
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Archivos de Python  
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Datos sensibles y archivos confidenciales
+data/
+*.xlsx
+*.xls
+*.eml
+*.pdf
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
