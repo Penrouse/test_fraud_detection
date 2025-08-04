@@ -1,0 +1,45 @@
+# config/columns.yaml
+transacciones:
+  # - HPAN # N Tarjeta
+  # - FECHA_TRX # Fecha
+  - HORA_TRX # Hora
+  - COUNTRY_CODE # Pais
+  - TERM_TYPE # Tipo de Terminal
+  - AMOUNT_1 # Monto CUR_CODE
+  - CUR_CODE # Cod moneda
+  - MCC # Actividad economica
+  - AMOUNT_2 # Monto BIN_CURRENCY
+  - FRAUD_ZONE # Zona de riesgo
+  - TRANS_TYPE # Tipo de la transaccion
+  # - SCORING_SUMMARY # Score de riesgo
+  - RISK_VALUE # Valor de Riesgo
+  - ISS_FLAG # 1 si transaccion del emisor, 2 transacción de adquisición
+  - ACQ_COUNTRY_CODE # Cod país adquiriente
+  - ORIGINAL_MERCHANT_LOGIN # Nombre del comercio
+  - PAN_COUNTRY_CODE # Cod pais por numero de tarjeta
+  - PROCESSING_CODE # Codigo de procesamiento
+  - OPERATION_PROCESSING_TIME # Tiempo de operación
+  - CHANEL_NAME # Nombre de la fuente de la transaccion
+  - CARDHOLDER_AUTH_CAP # 
+  # - FECHA_AFILIACION # Fecha de afiliación, (si hay ausente, poner la mayor fecha)
+  - CANAL # Canal de transaacción, (si hay faltante, poner el de mayor frecuencia)
+  - POS_CONDITION_CODE # Condición especial de la terminal
+  - CARD_DATA_OUTP_CAP #
+  - CARD_BRAND # 
+  - ORIGEN_ADQUIRENTE # 
+  - CARD_PRES #
+  - AUTH_SOURCE # Autorizador
+  - FRANQUICIA # Marca de la tarjeta
+  - POS_ENTRY_MODE # Modo entrada de la transaccion
+  - ORIGEN_EMISOR # Origen emisor
+  - FM_NETWORK # Red dueña de la terminal
+  - AMOUNT_COL # Monto de la transaccion
+  # - BANCO_ADQUIRENTE # Nombre del banco, (si es nulo, poner otro banco)
+  - AMBIENTE # Ambiente de la transacción, 
+  # - BANCO_EMISOR # Banco emisor, (si hay ausente poner otro banco)
+  - IS_FRAUD # 1 fraude, 
+
+
+diccionario:
+  - VARIABLE
+  - DESCRIPCIÓN
